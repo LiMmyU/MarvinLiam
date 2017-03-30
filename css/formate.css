@@ -1,33 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
+body{
+
+font-family: Raleway;
+background-color: lightblue;
+
+}
 
 
+main{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f2f6fc;
+
+}
+
+main header h1{
+
+    padding-top: 0.6em;
+
+}
+
+main img{
+
+    float: right; 
+    height: 150px;
+    width: 200px;
+    background-color: #f2f6fc;
+
+}
 
 
 nav ul{
     padding: 0;
     list-style-type: none;
     margin: 0;
+
 }
 
 
 
 nav{
 
-    background-color: #333;
+    background-color: #474747;
     overflow: hidden;
     top: 0;
     width: 100%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: red;
 
     }
 
 nav li{
 
     float: left;
-    font-family: sans-serif;
+    font-family: Raleway;
+
 }
 
 
@@ -35,6 +65,8 @@ nav li a{
 
     display: block;
     color: white;
+    background-color: #474747;
+    transition: all ease 0.5s;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,12 +75,13 @@ nav li a{
 
 .active{
 
-    background-color: #4CAF50;
+    background-color: #2f71c6;
 
 }
 
 li a:hover:not(.active){
 
     background-color: #111;
+    transition: all ease 0.5s;
 
 }
